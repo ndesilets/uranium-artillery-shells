@@ -1,0 +1,11 @@
+{
+    "name": "UraniumArtilleryShells",
+    "version": "1.0.0",
+    "title": "Uranium Artillery Shells",
+    "author": "Nic Desilets",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "Adds uranium artillery shells to send something a little extra to the biters."
+}
