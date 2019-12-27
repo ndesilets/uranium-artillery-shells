@@ -1,5 +1,6 @@
 local projectile = table.deepcopy(data.raw["artillery-projectile"]["artillery-projectile"])
 projectile.name = uranium_artillery_projectile
+projectile.piercing_damage = 150
 projectile.action.action_delivery.target_effects = {
     {
         action = {
