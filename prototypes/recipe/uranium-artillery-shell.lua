@@ -1,19 +1,22 @@
 local recipe = table.deepcopy(data.raw.recipe["artillery-shell"])
 recipe.ingredients = {
     {
-        "explosive-uranium-cannon-shell",
-        4
+        type="item",
+        name="explosive-uranium-cannon-shell",
+        amount=4
     },
     {
-        "radar",
-        1
+        type="item",
+        name="radar",
+        amount=1
     },
     {
-        "explosives",
-        8
+        type="item",
+        name="explosives",
+        amount=8
     }
 }
-recipe.result = uranium_artillery_shell
+recipe.results = {{type="item", name=uranium_artillery_shell, amount=1}}
 recipe.name = uranium_artillery_shell
 
 return {recipe}
